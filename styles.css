@@ -31,6 +31,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 18px;
+    
 }
 
 .form-control {
@@ -40,6 +41,7 @@ body{
 }
 
 label {
+    color: aliceblue;
     font-size: 15px;
     margin-left: 10px;
     margin-bottom: 5px;
@@ -107,4 +109,8 @@ button:active {
     .text-area-control {
         grid-column: 1 / span 1;
     }
+}
+
+h1{
+    color: white;
 }
